@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <script src="https://kit.fontawesome.com/8d6d6a959e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar from bootstrap%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg">
+    <a class="navbar-brand" href="#">
+      <img src="css\doctoraudio.jpg" width="100" height="60" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Patient-Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Admin-Login</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Doctor-Login</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Doctor-A</a>
+            <a class="dropdown-item" href="#">Doctor-B</a>
+            <a class="dropdown-item" href="#">Doctor-C</a>
+            <a class="dropdown-item" href="#">Doctor-D</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-warning my-2 my-sm-0">BOOK-APPOINTMENT</button>
+    </div>
+  </nav>
+
+
+
+  <!-- carousel%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+  <div class="fluid-container">
+    <div id="slider" class="carousel slide " data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active item" id="slide1">
+          <img class="d-block w-100" src="css/img1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Welcome to Advanced Hygiene Care!</h4>
+            <p>Where healing hands come to you!</p>
+          </div>
+        </div>
+        <div class="carousel-item item">
+          <img class="d-block w-100" src="css/img2.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Welcome to Advanced Hygiene Care!</h4>
+            <p>Where healing hands come to you!</p>
+          </div>
+        </div>
+        <div class="carousel-item item">
+          <img class="d-block w-100" src="css/img3.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Welcome to Advanced Hygiene Care!</h4>
+            <p>Where healing hands come to you!</p>
+          </div>
+        </div>
+        <div class="carousel-item item">
+          <img class="d-block w-100" src="css/img4.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Welcome to Advanced Hygiene Care!</h4>
+            <p>Where healing hands come to you!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container cont2">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 style="font-family: 'Pacifico', cursive; color:#709fb0;">Who we are .......</h2>
+        <h3>Welcome to Live-Doctors</h3>
+        <p>Lorem ipsum has become the industry standard for design mockups and prototypes. By adding a little bit of Latin to a mockup, you’re able
+          to show clients a more complete version of your design without actually having to invest time and effort drafting copy.
+          But despite all its benefits, seeing the same random Latin text in every design can get a little boring for you and your clients.
+          So if you have a client who’s got a sense of humor or if you’re just tired of going the traditional route in your mockups, here are 15 creative
+          and funny lorem ipsum text generators that are sure to lighten the mood at any client meeting.</p>
+        <button type="button" class="btn btn-outline-warning">View Services</button>
+      </div>
+      <div class="col-md-3">
+        <img class="imgcont" src="css/images.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- form -->
+
+
+  <div class="container cont2">
+    <div class="row jumbotron">
+      <div class="col-md-5 color">
+        <!-- login-form -->
+        <form style="padding: 20px 0;">
+          <h5 style="color:white;">User-Login</h5>
+          <div class="form-group">
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mobile Number">
+            <small style="color:white;" id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+          </div>
+          <div id="pwdholder" class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div style="display:none" id="otpholder" class="form-group">
+            <input type="number" class="form-control" placeholder="enter your otp">
+          </div>
+          <div id="otpcheck" class="form-check check">
+            <input type="radio" class="form-check-input" id="exampleCheck1" onclick="myFunction()">
+            <label style="color:white;" class="form-check-label" for="exampleCheck1">Login with otp</label>
+          </div>
+          <div id="pwdcheck" style="display:none" class="form-check check">
+            <input type="radio" class="form-check-input" id="exampleCheck2" onclick="myFunction2()">
+            <label style="color:white;" class="form-check-label" for="exampleCheck1">Login with password</label>
+          </div>
+
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-1">
+
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum has become the industry standard for design mockups and prototypes. By adding a little bit of Latin to a mockup, you’re able
+          to show clients a more complete version of your design without actually having to invest time and effort drafting copy.
+          But despite all its benefits, seeing the same random Latin text in every design can get a little boring for you and your clients.
+          So if you have a client who’s got a sense of humor or if you’re just tired of going the traditional route in your mockups, here are 15 creative
+          and funny lorem ipsum text generators that are sure to lighten the mood at any client meeting.</p>
+        <button type="button" class="btn btn-outline-warning">Read More</button>
+      </div>
+    </div>
+    <div class="row jumbotron">
+      <div class="col-md-6">
+        <p>Lorem ipsum has become the industry standard for design mockups and prototypes. By adding a little bit of Latin to a mockup, you’re able
+          to show clients a more complete version of your design without actually having to invest time and effort drafting copy.
+          But despite all its benefits, seeing the same random Latin text in every design can get a little boring for you and your clients.
+          So if you have a client who’s got a sense of humor or if you’re just tired of going the traditional route in your mockups, here are 15 creative
+          and funny lorem ipsum text generators that are sure to lighten the mood at any client meeting.</p>
+        <button type="button" class="btn btn-outline-warning">Read More</button>
+      </div>
+      <div class="col-md-1">
+
+      </div>
+
+      <div class="col-md-5 color">
+        <form style="padding: 20px 0;">
+          <h5 style="color:white;">New-Login</h5>
+          <div class="form-group">
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mobile Number" required="true">
+          </div>
+          <div class="form-group">
+            <button id="verify" type="button" class="btn btn-outline-warning btn-sm" onclick="addmember()">verify</button>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+          </div>
+          <div style="display:none;" id="otpbox" class="form-group">
+            <input type="number" class="form-control" placeholder="enter your otp">
+          </div>
+          <button type="submit" class="btn btn-warning">Register</button>
+          <button style="display:none;" id="verify2" type="submit" class="btn btn-warning" onclick="addmember2()">verify-again</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <!-- /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/*/*/*/*/*/*/*/*/consult Doctor*/*/*/*/*/*/*/*/*/*/*/*/**/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/-->
+
+  <div class="container">
+    <h3 id="con_doc">Consult Doctor</h3>
+    <div class="row jumbotron">
+
+      <div class="col-md-5 color">
+        <form style="padding: 20px 0;">
+          <h5 style="color:white;">Record Your Problem</h5>
+      <div class="form-group">
+
+<audio id="player" controls></audio>
+
+    </div>
+
+            <button type="submit" class="btn btn-outline-warning btn-sm">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-1">
+
+      </div>
+
+      <div class="col-md-5 color">
+        <form style="padding: 20px 0;">
+          <h5 style="color:white;">Patient-Problem</h5>
+          <div class="form-group">
+            <textarea class="form-control" aria-label="With textarea" placeholder="Describe Your Problem"></textarea>
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option>Select-Department</option>
+              <option>Ortho</option>
+              <option>Cancer</option>
+              <option>Dental</option>
+              <option>Covid</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+              <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+              <div class="invalid-feedback">Example invalid custom file feedback</div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-outline-warning btn-sm">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+<!-- footer-=========================================================================================================== -->
+
+<footer class="page-footer font-small blue-grey lighten-5">
+  <div style="background-color: #08364b;">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 style="color:white;" class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <a class="fb-ic">
+            <i style="color:white;" class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <a class="tw-ic">
+            <i style="color:white;" class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          <a class="gplus-ic">
+            <i style="color:white;" class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          <a class="li-ic">
+            <i style="color:white;" class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+          <a class="ins-ic">
+            <i style="color:white;" class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Doctors-Live</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Lorem ipsum has become the industry standard for design mockups and prototypes. By adding a little bit of Latin to a mockup, you’re about.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Departments</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="dark-grey-text" href="#!">Ortho</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Dental</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Cancer</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Covid</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+    <a class="dark-grey-text" href="#"> doctorslive.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!-- =================================================================================================================== -->
+  <script>
+    const recorder = document.getElementById('recorder');
+    const player = document.getElementById('player');
+
+    recorder.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      const url = URL.createObjectURL(file);
+      // Do something with the audio file.
+      player.src = url;
+    });
+  </script>
+  <script src="jscr/function.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
